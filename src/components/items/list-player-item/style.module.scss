@@ -1,0 +1,96 @@
+@import "src/assets/styles/main.module";
+
+.container {
+  display: grid;
+  align-items: center;
+  position: relative;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  height: 340px;
+  grid-template-rows: 45px 250px 45px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: $titleFont;
+}
+
+.formImage {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.imageContainer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  cursor: pointer;
+  grid-template-rows: auto 40px;
+  position: relative;
+  transform: translateY(-15px);
+}
+
+.imageContainer img {
+  height: 210px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.playerName {
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-10px);
+}
+
+
+.header{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.edit {
+  border: none;
+  padding: 4px;
+  text-transform: uppercase;
+  color: $white;
+  background: $gradient-green;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 1s;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 1px;
+  z-index: 200;
+  height: 100%;
+  font-family: $titleFont;
+}
+
+.edit:hover {
+  background: $gradient-green-hover;
+}
+
+.number {
+  font-size: 25px;
+  color: $blue;
+  font-weight: 700;
+}
+
+
+.position {
+  font-size: 17px;
+  color: $blue;
+  font-weight: 700;
+}

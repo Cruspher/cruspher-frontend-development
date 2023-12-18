@@ -1,0 +1,10 @@
+.span {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .span {
+    font-size: 20px !important;
+  }
+}

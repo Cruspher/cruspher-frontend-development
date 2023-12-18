@@ -1,0 +1,91 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  padding: 10px;
+  background: $bg-black-transparent;
+  height: 90px;
+  row-gap: 5px;
+  column-gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0;
+  width: 0;
+  background: $bg-blue-dark;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.3;
+  transition: 0.3s;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.status > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.containerActive {
+  background: $bg-blue-light;
+}
+
+.status:hover > div {
+  background: $bg-blue-dark;
+}
+
+.status > div:hover {
+  background: $bg-blue-light !important;
+}
+
+.statusActive {
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  opacity: 1;
+  z-index: 200;
+}
+
+.status:hover {
+  opacity: 1;
+}
+
+.ok {
+  color: $green;
+}
+
+.other {
+  color: $blue;
+}
+
+.card {
+  color: $red-light;
+  transform: rotate(90deg);
+}
+
+.sick {
+  color: $red;
+}
+
+.activeStatus {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 700;
+  z-index: 200;
+}

@@ -1,0 +1,17 @@
+@import "src/assets/styles/main.module";
+
+.span {
+  font-weight: 700;
+}
+
+.spanTrue {
+  color: $green-active;
+}
+
+.spanFalse {
+  color: $red;
+}
+
+.spanSimple {
+  color: $white;
+}

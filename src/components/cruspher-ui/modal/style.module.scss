@@ -1,0 +1,55 @@
+@import "src/assets/styles/main.module";
+
+.modal {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 15px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: $body-bg-dark;
+  z-index: 2000;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: $white;
+  font-size: 24px;
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 200;
+}
+
+
+.close:hover {
+  opacity: 1;
+}
+
+
+.modal > div::-webkit-scrollbar {
+  display: none !important;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .modal {
+    padding: 15px;
+  }
+}

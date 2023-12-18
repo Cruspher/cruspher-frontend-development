@@ -1,0 +1,40 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 10px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.wrapColor {
+  background: $bg-dark-opacity;
+}
+
+.title {
+  font-family: $titleFont;
+  font-size: 14px;
+  word-break: break-word;
+  max-width: 250px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: $titleFont;
+}
+
+.default {
+  color: $blue;
+}
+
+.good {
+  color: $green-light;
+}
+
+.bad {
+  color: $red-light;
+}
+

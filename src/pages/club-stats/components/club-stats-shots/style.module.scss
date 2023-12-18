@@ -1,0 +1,8 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  border: 1px solid $bg-dark;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}

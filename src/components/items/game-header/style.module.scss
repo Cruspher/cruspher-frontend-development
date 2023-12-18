@@ -1,0 +1,94 @@
+@import "src/assets/styles/main.module";
+
+.header {
+  margin: 0 auto;
+  background: $bg-dark-opacity;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  border-radius: 10px;
+  padding: 8px 20px;
+  width: fit-content;
+}
+
+.wrap {
+  position: relative;
+}
+
+.container {
+  height: 100px;
+  background: $bg-dark-opacity;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+}
+
+.league,
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $titleFont;
+}
+
+.league {
+  height: 30px;
+}
+
+.round {
+  height: 30px;
+  color: $text-grey;
+}
+
+.title {
+  display: flex;
+  column-gap: 7px;
+  height: 100%;
+  align-items: center;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  font-family: $textFont;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  transform: translateY(-7px);
+}
+
+.stadium {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  column-gap: 5px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.title img {
+  height: 50px;
+}
+
+.statuses {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 200;
+}
+
+
+@media screen and (max-width: 520px) {
+  .name {
+    font-size: 14px;
+  }
+}
+
+

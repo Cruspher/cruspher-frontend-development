@@ -1,0 +1,32 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  cursor: pointer;
+}
+
+
+
+.icon {
+  font-size: 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

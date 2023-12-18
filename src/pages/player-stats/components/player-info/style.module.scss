@@ -1,0 +1,44 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.info {
+  display: grid;
+  row-gap: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  background: $bg-dark-opacity;
+  align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

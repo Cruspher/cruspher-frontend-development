@@ -1,0 +1,49 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.selectWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.priceWrap {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+
+.price {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $titleFont;
+}
+
+@media screen and (max-width: 820px) {
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .selectWrap {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+
+
+
+

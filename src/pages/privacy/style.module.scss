@@ -1,0 +1,27 @@
+@import "src/assets/styles/main.module";
+
+.privacyTitle {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: $titleFont;
+}
+
+.wrap {
+  display: grid;
+  row-gap: 40px;
+}
+
+.item {
+
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-family: $titleFont;
+}
+
+.text {
+  font-size: 16px;
+  font-family: $textFont;
+}

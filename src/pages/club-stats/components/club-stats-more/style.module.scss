@@ -1,0 +1,29 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  border: 1px solid $bg-dark;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+
+.wrap > div > div {
+  background: $bg-dark-opacity;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

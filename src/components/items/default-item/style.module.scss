@@ -1,0 +1,12 @@
+@import "src/assets/styles/main.module";
+
+.icon {
+  font-size: 32px;
+  color: $red;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  opacity: 1 !important;
+}

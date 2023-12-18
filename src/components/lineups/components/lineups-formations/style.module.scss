@@ -1,0 +1,17 @@
+@import "../../../../assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 30px auto 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.chooseFormation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  padding: 0 15px;
+}
+
+

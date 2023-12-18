@@ -1,0 +1,25 @@
+@import "src/assets/styles/main.module";
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $titleFont;
+}
+
+.pageTitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $titleFont;
+}
+
+@media screen and (max-width: 600px) {
+  .title,
+  .pageTitle {
+    font-size: 21px !important;
+  }
+
+  .pageTitle {
+    text-align: center;
+  }
+}

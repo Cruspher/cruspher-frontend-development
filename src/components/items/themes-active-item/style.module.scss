@@ -1,0 +1,69 @@
+@import "../../../assets/styles/main.module.scss";
+
+.wrap {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $titleFont;
+  flex-direction: column;
+}
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.wrapDefault {
+  background: $bg-dark-opacity;
+}
+
+.wrapActive {
+  background: $bg-dark-opacity;
+}
+
+.container {
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.titleName {
+  color: $grey-light;
+}
+
+@media screen and (max-width: 560px) {
+  .wrap {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .buttonWrap {
+    flex-direction: column;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .titleName {
+    display: none;
+  }
+}
+

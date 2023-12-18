@@ -1,0 +1,37 @@
+@import "src/assets/styles/main.module";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.containerWithoutPadding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorText {
+  text-transform: uppercase;
+  color: $red-dark;
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-family: $titleFont;
+}
+
+.errorIcon {
+  font-size: 25px;
+  color: $red-dark;
+  transform: translateY(-1px);
+}
+
+
+@media screen and (max-width: 600px) {
+  .errorText {
+    font-size: 15px;
+  }
+}

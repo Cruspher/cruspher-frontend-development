@@ -1,0 +1,21 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-rows: 50px 250px;
+}
+
+.header {
+  background: $blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h4 {
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+}

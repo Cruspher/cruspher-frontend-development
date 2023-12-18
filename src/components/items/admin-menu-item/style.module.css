@@ -1,0 +1,25 @@
+.container {
+}
+
+.header {
+  height: 50px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(43, 68, 105, 0.4);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.body {
+  padding: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.bodyActive {
+  height: auto;
+  padding: 20px 0px;
+}

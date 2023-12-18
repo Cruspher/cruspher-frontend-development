@@ -1,0 +1,47 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  row-gap: 30px;
+}
+
+.messageWrap {
+  display: grid;
+  row-gap: 15px;
+}
+
+.formWrap {
+  display: grid;
+  row-gap: 15px;
+}
+
+.headerContainer {
+  display: grid;
+  grid-template-columns: 34px auto;
+}
+
+.backIcon {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 1s;
+  color: $green;
+  opacity: 0.7;
+}
+
+.backIcon:hover {
+  opacity: 1;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: $titleFont;
+}
+
+.subTitle {
+  color: $text-grey;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-family: $titleFont;
+}
+

@@ -1,0 +1,33 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  row-gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 10px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: $titleFont;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: $titleFont;
+}
+
+.points {
+  font-size: 17px;
+  font-family: $titleFont;
+  color: $grey-light
+}

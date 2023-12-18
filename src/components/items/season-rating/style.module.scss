@@ -1,0 +1,94 @@
+@import "../../../assets/styles/main.module";
+
+.wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.scene {
+  height: 40px;
+  perspective: 600px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.card {
+  width: 40px;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cardFace {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  color: $white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardFaceFront {
+  background: $red;
+}
+
+.cardFaceBack {
+  background: $blue-light;
+  transform: rotateY( 180deg );
+}
+
+
+.card:nth-last-child(1) {
+  width: 30px;
+  height: 30px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.card:nth-last-child(1) .cardFaceBack {
+  background: $blue-default;
+  font-size: 20px !important;
+}
+
+card:nth-last-child(1) .cardFaceFront {
+  font-size: 20px;
+}
+
+
+
+.cardActive {
+  transform: rotateY(-180deg);
+}
+
+
+.positionCircle {
+  border-radius: 50%;
+  border: 4px solid $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .wrap {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}

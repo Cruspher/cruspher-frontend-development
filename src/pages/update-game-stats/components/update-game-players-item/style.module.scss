@@ -1,0 +1,58 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  font-family: $textFont;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+.container {
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.containerTop {
+  background: $gradient-green
+}
+
+.body {
+  padding: 10px;
+  display: grid;
+  row-gap: 10px;
+}
+
+.rating {
+  font-size: 19px;
+  font-weight: 700;
+  color: $white;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 19px;
+  color: $violet;
+}
+
+.position {
+  color: $grey-light;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: $titleFont;
+}
+
+.avatar {
+  width: 50px;
+}
+
+.name {
+  font-family: $titleFont;
+  font-size: 21px;
+}

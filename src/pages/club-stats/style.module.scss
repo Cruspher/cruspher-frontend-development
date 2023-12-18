@@ -1,0 +1,21 @@
+@import "src/assets/styles/main.module";
+
+.wrap  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

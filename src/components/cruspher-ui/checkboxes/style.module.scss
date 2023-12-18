@@ -1,0 +1,74 @@
+.container {
+  position: relative;
+  perspective: 200px;
+}
+
+.container input[type="checkbox"]
+{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  margin: 0;
+  -webkit-appearance: none;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.container span
+{
+  position: absolute;
+  top: 0;
+  width: 50%;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  pointer-events: none;
+  color: #fff;
+  transform-style: preserve-3d;
+}
+
+.container span:nth-child(2)
+{
+  left: 0;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background: #228B22;
+}
+
+.container span:nth-child(2):before
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,#A50044,#A50044);
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  transform-origin: right;
+  transition: 1s;
+}
+
+.container input[type="checkbox"]:checked ~ span:nth-child(2):before
+{
+  transform: rotateY(180deg);
+}
+
+.container input[type="checkbox"]:checked ~ span:nth-child(3)
+{
+  color: #A50044;
+}
+
+.container span:nth-child(3)
+{
+  right: 0;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #A50044;
+  transition: 0.5s;
+}

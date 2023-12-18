@@ -1,0 +1,41 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  position: relative;
+}
+
+.imageWrap {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.image {
+  max-width: 90%;
+  max-height: 350px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $textFont;
+  font-weight: 700;
+}
+
+.textArea {
+  width: 100%;
+  background: transparent;
+  border: none !important;
+  outline: none !important;
+  color: $text-white;
+  font-size: 20px;
+  resize: none;
+  font-family: $titleFont;
+}
+
+
+
+
+

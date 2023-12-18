@@ -1,0 +1,16 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  width: 100%;
+}
+
+.wrap h4 {
+  color: $text-grey-light;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  left: 0;
+  bottom: 8px;
+  font-family: $titleFont;
+  padding-bottom: 4px;
+}

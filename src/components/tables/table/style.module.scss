@@ -1,0 +1,30 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  overflow-x: scroll;
+}
+
+.scrollBlock {
+  overflow-x: scroll;
+}
+
+.container {
+  display: grid;
+  row-gap: 20px;
+}
+
+
+.block {
+  display: grid;
+  grid-template-columns: 75px auto;
+  margin: 0 auto;
+  background: $bg-dark-opacity;
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+

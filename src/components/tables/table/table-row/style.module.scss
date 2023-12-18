@@ -1,0 +1,23 @@
+@import "src/assets/styles/main.module";
+
+.container {
+  display: grid;
+  height: 28px;
+  background-color: #272B37;
+}
+
+.containerBlue {
+  background-color: $bg-blue-opacity;
+}
+
+.containerOrange {
+  background-color: $bg-violet-opacity;
+}
+
+.containerGreen {
+  background-color: $bg-yellow-opacity;
+}
+
+.containerRed {
+  background-color: $bg-red-opacity;
+}

@@ -1,0 +1,26 @@
+@import "src/assets/styles/main.module";
+
+
+.wrap h3 {
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-size: 16px;
+  padding: 4px 12px;
+  column-gap: 10px;
+  font-family: $titleFont;
+  background-color: $bg-dark-opacity;
+}
+
+.date {
+  color: $text-grey-light;
+  font-size: 12px;
+}
+
+.league {
+  color: $text-white;
+  font-size: 12px;
+}
+

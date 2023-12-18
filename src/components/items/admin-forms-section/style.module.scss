@@ -1,0 +1,16 @@
+.wrap {
+  display: grid;
+  row-gap: 30px;
+}
+
+.selectWrap {
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .selectWrap {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}

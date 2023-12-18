@@ -1,0 +1,19 @@
+@import "src/assets/styles/main.module";
+
+.success,
+.all {
+  font-weight: 700;
+}
+
+.success {
+  color: $green-active;
+}
+
+.all {
+  color: $blue-default;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+}

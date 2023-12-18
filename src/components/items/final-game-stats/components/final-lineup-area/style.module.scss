@@ -1,0 +1,54 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  position: relative;
+}
+
+.dec {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+}
+
+
+.area {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 100px 50px 100px;
+}
+
+.area > div {
+  position: relative;
+  cursor: pointer;
+}
+
+.title {
+  font-family: $titleFont;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  font-size: 21px;
+  font-weight: 600;
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 500px) {
+  .dec {
+    width: 140vw;
+    left: calc(-20vw - 20px) !important;
+  }
+
+  .area {
+    padding: 10px 10px 50px 10px;
+  }
+}

@@ -1,0 +1,134 @@
+@import "src/assets/styles/main.module";
+
+.back {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrap {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 100vh;
+  align-items: center;
+  padding: 70px 20px;
+}
+
+
+.buttonsWrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.toggle {
+  width: 150px;
+  height: 40px;
+  border: 1px solid $green-light;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $green-light;;
+  font-max-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.about {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-max-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  border: 1px solid #1DA1F2;
+  color: #1DA1F2;
+}
+
+.about:hover {
+  border: 1px solid #021c36;
+  color: #021c36;
+}
+
+.toggleLogin {
+  border: 1px solid $violet;
+  color: $violet;
+}
+
+.button {
+  margin: 0 auto;
+  border: none;
+  font-size: 18px;
+  background: #021c36;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 8px 12px;
+  width: 200px;
+}
+
+.buttonLogin {
+  background: #228B22;
+}
+
+
+.button:hover,
+.toggle:hover {
+  opacity: 0.7;
+}
+
+
+.success {
+  top: 0;
+  bottom: 0;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success h2 {
+  font-size: 24px;
+  color: green;
+}
+
+.success h3 {
+  margin-top: 5px;
+}
+
+.successImage {
+  position: absolute;
+  width: 60%;
+  max-height: 80%;
+  opacity: 0.08;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .successImage {
+    max-width: 260px;
+  }
+}

@@ -1,0 +1,22 @@
+.wrap {
+  display: grid;
+  row-gap: 30px;
+}
+
+.container {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about {
+  display: grid;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

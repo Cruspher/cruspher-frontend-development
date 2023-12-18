@@ -1,0 +1,17 @@
+@import "src/assets/styles/main.module";
+
+.image {
+  width: 70px;
+}
+
+.container {
+  text-align: center;
+}
+
+
+.title {
+  text-transform: uppercase;
+  color: $text-grey-light;
+  font-family: $titleFont;
+}
+

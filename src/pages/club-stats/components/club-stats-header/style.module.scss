@@ -1,0 +1,32 @@
+@import "src/assets/styles/main.module";
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.about > div {
+  border-radius: 4px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+}

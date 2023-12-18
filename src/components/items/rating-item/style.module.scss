@@ -1,0 +1,45 @@
+@import "src/assets/styles/main.module";
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: flex-end;
+  padding: 4px 8px;
+}
+
+.leftSide {
+  display: flex;
+  color: $text-white;
+  font-weight: 700;
+  align-items: flex-end;
+}
+
+.ratingNumber {
+  color: $white;
+  font-family: $titleFont;
+  transform: translateY(-1px);
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+}
+
+.startIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.name {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: $textFont;
+}
+
+
+.text {
+  font-weight: 700;
+  font-size: 21px;
+}

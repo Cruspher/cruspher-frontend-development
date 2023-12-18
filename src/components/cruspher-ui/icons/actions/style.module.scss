@@ -1,0 +1,30 @@
+@import 'src/assets/styles/main.module';
+
+
+.icon {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.removeIcon {
+  color: $red-light;
+  transform: translateY(2px);
+}
+
+.editIcon {
+  color: $green-light;
+}
+
+.clearIcon {
+  color: $blue-light;
+}
+
+.statusIcon {
+  color: $text-grey;
+}
+
+.backIcon {
+  color: $green-light;
+}

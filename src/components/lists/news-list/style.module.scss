@@ -1,0 +1,19 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
+

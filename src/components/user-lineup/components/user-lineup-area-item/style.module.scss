@@ -1,0 +1,75 @@
+@import "../../../../assets/styles/main.module";
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dec {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  background: #61FF08;
+  mix-blend-mode: screen;
+  filter: blur(7px);
+}
+
+.menu {
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  top: 20px;
+  z-index: 200;
+}
+
+.captain,
+.remove,
+.exit {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  background: $bg-blue-default;
+}
+
+.captain {
+  color: $blue-light;
+  opacity: 0.3;
+  margin-left: 5px;
+  z-index: 400;
+}
+
+.activeCaptain {
+  opacity: 1;
+}
+
+
+.remove {
+  color: $red;
+  position: absolute;
+  right: 5px;
+}
+
+.exit {
+  transform: translate(5px, -30px);
+  background: $red;
+  color: $white;
+  z-index: 200;
+  position: absolute;
+}
+
+.emptyDiv {
+  z-index: -5;
+  opacity: 0;
+}
+
+
+.captainNone {
+  display: none;
+}

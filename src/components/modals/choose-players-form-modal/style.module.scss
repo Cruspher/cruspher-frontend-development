@@ -1,0 +1,40 @@
+@import "src/assets/styles/main.module";
+
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 10px;
+  background: $blue-default;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.item:hover,
+.itemActive {
+  background: $bg-area !important;
+}
+
+.title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.imageWrap {
+
+}
+
+.formImage {
+  max-width: 80px;
+  margin-left: 50%;
+  margin-top: -20px;
+  transform: translateX(-50%);
+}

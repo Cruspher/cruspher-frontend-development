@@ -1,0 +1,33 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 550px auto;
+  column-gap: 30px;
+  row-gap: 30px;
+  height: 500px;
+}
+
+
+.areaWrap {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.areaDisabled {
+  grid-template-columns: 1fr !important;
+}
+
+
+@media screen and (max-width: 960px) {
+  .wrap {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,24 @@
+@import "src/assets/styles/main.module";
+
+.icon {
+  opacity: 0.7;
+  transition: 0.5s;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.count {
+  font-family: $titleFont;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.iconLike {
+  color: $green-light;
+}
+
+.iconDislike {
+  color: $red-light;
+}

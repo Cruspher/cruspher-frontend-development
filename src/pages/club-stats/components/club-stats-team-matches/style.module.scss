@@ -1,0 +1,52 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 70px 1fr;
+  width: 100%;
+}
+
+.item {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding: 0 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.titleLeft {
+  text-align: right;
+}
+
+.item:nth-child(2n-1) {
+  background: $bg-dark-opacity;
+}
+
+
+.item:hover {
+  background: $bg-violet-opacity;
+}
+
+
+.image {
+  height: 50px;
+}
+
+
+@media screen and (max-width: 760px) {
+  .title {
+    display: none;
+  }
+
+  .table {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+
+$border-grey: rgba(255, 255, 255, 0.2);
+$bg-grey: #353836;
+
+$green-default: #28991c;
+$green-active: #00be14;
+$green-table: rgba(0, 190, 20, 0.4);
+
+$blue-light: rgba(96, 187, 230, 1);
+$bg-blue-opacity: rgba(20, 78, 105, 0.2);
+$blue-default: rgba(25, 85, 120, 1);
+
+$border-area: rgba(49, 122, 181, 1);
+$bg-area: rgba(49, 122, 181, 1);
+
+$orange-dark: rgba(255, 105, 0, 0.6);
+
+
+$blue-default: rgba(25, 85, 120, 1);
+
+
+$bg-blue: darken(#214fc2, 10%);
+$bg-blue-dark: darken(#200772, 8%);
+$bg-blue-light: darken(#3914AF, 18%);
+$bg-blue-default: darken(#033E6B, 10%);
+
+$bg-modal: #31124F;
+
+
+$text-white: #fff;
+$text-grey: #bfc3c9;
+$text-grey-light: #ccd5e6;
+
+$red: #B92E3B;
+$red-dark: #A0000F;
+$red-light: #F60018;
+
+$green: #188A00;
+$green-light: #25D500;
+
+$blue: #0B61A4;
+$blue-dark: #033E6B;
+$blue-light: #3F92D2;
+
+$bg-black-transparent: rgba(0, 0, 0, 0.2);
+
+$titleFont: 'Roboto', sans-serif;
+$textFont: 'Roboto', sans-serif;
+
+
+
+$bg-dark: #1B212C;
+$body-bg-dark: #0F1521;
+$bg-dark-opacity: rgba(255, 255, 255, 0.04);
+$bg-blue-opacity: rgba(0, 71, 255, 0.2);
+$bg-violet-opacity: rgba(143, 0, 255, 0.03);
+$bg-yellow-opacity: rgba(255, 153, 0, 0.2);
+$bg-red-opacity: rgba(255, 0, 0, 0.2);
+$bg-dark-violet: #2E384D;
+$violet: rgba(143, 0, 255, 1);
+
+
+$gradient-green: linear-gradient(180deg, #69FFB7 0%, #00CE6B 36.98%, #008344 100%);
+$gradient-green-hover: linear-gradient(180deg, #69FFB7 0%, #00CE6B 56.98%, #008344 100%);
+$gradient-red: linear-gradient(180deg, #FF717B 0%, #FF2837 30.21%, #720008 100%);
+$gradient-yellow: linear-gradient(353.54deg, #F7AA0F 5.57%, #F8B40D 16.02%, #FBCA09 43.89%, #FCD707 70.67%, #FDDC06 94.91%);
+$gradient-grey: linear-gradient(180deg, #bfbbc4 0%, #8e8d8f 36.98%, #666369 100%);
+
+$white: #ffffff;
+$grey-light: silver;
+$grey: grey;
+$yellow: #FDDC06;
+$green-light: #25D500;
+$red-light: #F60018;
+
+
+$box-green: green;
+$box-blue: blue;
+$box-violet: #ad20c9;
+$box-price: #bfbbc4;
+
+
+$dark-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+$backdrop-filter: blur(5px);

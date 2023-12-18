@@ -1,0 +1,41 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.wrap > div {
+  height: 350px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  overflow-y: scroll;
+}
+
+
+.player {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 0 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.player:nth-child(2n-1) {
+  background: $bg-dark-opacity;
+}
+
+.player:hover {
+  background: $bg-violet-opacity;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrap {
+    grid-template-columns: 1fr;
+  }
+}

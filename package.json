@@ -1,0 +1,83 @@
+{
+  "name": "barca-family",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.13.1",
+    "@material-ui/pickers": "^3.3.10",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "circletype": "^2.3.0",
+    "d3-dsv": "^3.0.1",
+    "d3-format": "^3.1.0",
+    "d3-time-format": "^4.1.0",
+    "date-time-picker-component": "^1.1.2",
+    "faker": "^5.5.3",
+    "formik": "^2.2.9",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "prop-types": "^15.8.1",
+    "rc-input-number": "^7.3.4",
+    "rc-picker": "^2.6.8",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-calendar-datetime-picker": "^1.6.0",
+    "react-circular-progressbar": "^2.0.4",
+    "react-date-picker": "^8.4.0",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.5.1",
+    "react-financial-charts": "^1.3.2",
+    "react-google-charts": "^3.0.15",
+    "react-icons": "^4.3.1",
+    "react-intl": "^5.24.6",
+    "react-modern-datepicker": "^1.2.0",
+    "react-rainbow-components": "^1.29.0",
+    "react-range": "^1.8.12",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.3.2",
+    "react-slider": "^1.3.1",
+    "react-textarea-autosize": "^8.3.3",
+    "react-toastify": "^8.1.0",
+    "react-type-animation": "^1.1.2",
+    "react-typing-animation": "^1.6.2",
+    "reactjs-percentage-circle": "^1.0.0",
+    "reactjs-timepicker": "^1.0.7",
+    "recharts": "^2.1.8",
+    "sass": "^1.49.9",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../../../assets/styles/main.module";
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: $bg-dark-opacity;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+.active {
+  background: $gradient-grey;
+}

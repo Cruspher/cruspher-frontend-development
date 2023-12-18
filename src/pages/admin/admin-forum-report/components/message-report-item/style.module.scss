@@ -1,0 +1,86 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid $bg-dark;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.idWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+  height: 25px;
+  border-radius: 8px;
+  background: $grey-light;
+  padding: 0 8px;
+  color: $blue-light;
+}
+
+
+.idTitle {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.user {
+  background: $blue;
+  display: flex;
+  column-gap: 10px;
+  width: fit-content;
+  height: 40px;
+  padding: 0 8px;
+  border-radius: 8px;
+  align-items: center;
+  font-family: $titleFont;
+}
+
+.userTitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $grey-light;
+  font-family: $titleFont;
+}
+
+.reports {
+  width: 25px;
+  height: 25px;
+  background: $red-light;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.message {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $textFont;
+}
+
+.date {
+  color: $grey-light;
+  font-size: 12px;
+  font-family: $titleFont;
+}
+
+.actions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

@@ -1,0 +1,32 @@
+@import "src/assets/styles/main.module";
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 70px 1fr;
+  align-items: center;
+  padding: 20px;
+}
+
+.name {
+  
+}
+
+.avatar {
+  height: 70px;
+}
+
+.scoreSpan {
+
+}
+
+@media screen and (max-width: 760px) {
+  .title {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .item {
+    border-radius: 4px;
+  }
+}

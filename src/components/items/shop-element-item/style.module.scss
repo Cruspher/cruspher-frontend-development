@@ -1,0 +1,89 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  height: 300px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-family: $titleFont;
+}
+
+.image {
+  max-height: 70%;
+  max-width: 80%;
+}
+
+.imageForm {
+  transform: translateY(-30px);
+}
+
+.nameWrap {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.priceWrap {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.shopType {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.price {
+  color: $text-grey;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 18px;
+  color: $text-white;
+  font-weight: bold;
+}
+
+.type {
+  column-gap: $text-grey;
+  font-size: 12px;
+}
+
+.defaultIcon {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.wrapGreen {
+  border-bottom: 5px solid $green-light;
+}
+
+.wrapBlue {
+  border-bottom: 5px solid $blue-light;
+}
+
+.wrapViolet {
+  border-bottom: 5px solid $box-violet;
+}
+
+.coinIcon {
+  color: $green;
+}

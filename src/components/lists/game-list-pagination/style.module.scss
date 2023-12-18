@@ -1,0 +1,32 @@
+.wrap {
+  display: grid;
+  row-gap: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  padding: 0;
+  column-gap: 20px;
+}
+
+
+@media screen and (max-width: 1020px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

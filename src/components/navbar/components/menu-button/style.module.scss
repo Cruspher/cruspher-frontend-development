@@ -1,0 +1,51 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.span, .span:before, .span:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -2px;
+  left: 50%;
+  margin-left: -15px;
+  width: 30px;
+  height: 4px;
+  background: $white;
+}
+
+.span:after, span:before {
+  content: '';
+  display: block;
+  transition: 1s;
+}
+
+.span:before {
+  transform: translateY(-7px);
+}
+
+.span:after {
+  transform: translateY(7px);
+}
+
+.wrapActive .span:before {
+  transform: rotate(-35deg);
+  width: 10px;
+  transform-origin: left top;
+}
+
+.wrapActive .span:after {
+  transform: rotate(35deg);
+  width: 10px;
+  transform-origin: left bottom;
+}
+

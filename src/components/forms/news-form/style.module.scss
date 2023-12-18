@@ -1,0 +1,17 @@
+.wrap {
+  display: grid;
+  row-gap: 30px;
+}
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .buttonWrap {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

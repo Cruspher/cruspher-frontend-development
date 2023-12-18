@@ -1,0 +1,67 @@
+@import "src/assets/styles/main.module";
+
+.uploadContainer {
+  min-height: 120px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  cursor: pointer;
+}
+
+.formImage {
+  position: absolute;
+}
+
+.uploadContainerActive {
+  background: $bg-red-opacity;
+}
+
+.uploadContainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+  max-width: 80%;
+  max-height: 500px;
+  margin: 0 auto;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  border-radius: 8px;
+}
+
+.container img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.remove {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: $red-light;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.remove:hover {
+  opacity: 1;
+}

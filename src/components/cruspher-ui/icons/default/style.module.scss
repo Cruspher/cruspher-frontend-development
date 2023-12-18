@@ -1,0 +1,25 @@
+@import "src/assets/styles/main.module";
+
+.icon {
+  cursor: pointer;
+}
+
+.actionCircle {
+  width: 24px;
+  height: 24px;
+  background: $gradient-green;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.actionCircle:hover {
+  background-color: $gradient-green-hover;
+}
+
+.actionCircleRed {
+  background: $gradient-red;
+}

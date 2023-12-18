@@ -1,0 +1,47 @@
+@import "src/assets/styles/main.module";
+
+.navigation {
+  border: 1px solid $bg-dark;
+  height: 50px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+}
+
+.itemActive {
+  background: $bg-dark-opacity;
+}
+
+.icon {
+  font-size: 24px;
+  transform: translateY(3px);
+  color: $grey-light;
+}
+
+.iconActive {
+  color: $white;
+}
+
+.navigation > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  column-gap: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-left: 1px solid $bg-dark;
+}
+
+.navigation > div:nth-child(1) {
+  border-left: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navigation h3 {
+    display: none;
+  }
+}

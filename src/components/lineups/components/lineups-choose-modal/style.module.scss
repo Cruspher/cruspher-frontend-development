@@ -1,0 +1,91 @@
+@import '../../../../assets/styles/main.module';
+
+.wrap {
+  overflow-y: scroll;
+  min-height: 400px;
+  height: 100%;
+  position: relative;
+}
+
+
+.wrapDisabled {
+  background: $bg-dark-opacity;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: $titleFont;
+}
+
+.filter {
+  font-size: 12px;
+  color: $text-grey;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+  font-family: $textFont;
+}
+
+.check {
+  font-size: 12px;
+  color: $green;
+  transform: translateY(2px);
+}
+
+.filterActive {
+  color: $white;
+}
+
+.container {
+  padding: 10px 0;
+  color: $white;
+  display: grid;
+  row-gap: 10px;
+}
+
+.item {
+  background: $bg-dark-opacity;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+}
+
+.title {
+  font-family: $titleFont;
+  font-size: 19px;
+}
+
+.number {
+  color: $violet;
+  font-family: $titleFont;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.position {
+  font-family: $textFont;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.chose {
+  font-size: 21px;
+  font-family: $titleFont;
+  text-transform: uppercase;
+  color: $violet;
+  font-weight: 500;
+}
+

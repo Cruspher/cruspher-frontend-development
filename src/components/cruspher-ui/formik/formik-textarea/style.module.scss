@@ -1,0 +1,28 @@
+@import "../../../../assets/styles/main.module";
+
+.input {
+  font-size: 17px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  width: 100%;
+  font-family: $textFont;
+  color: $white;
+  background: $bg-dark-violet;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.input:focus-visible {
+  outline: none !important;
+  border: 2px solid transparent;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.input::placeholder {
+  color: $text-grey;
+}
+
+.inputError {
+  border: 2px solid $red-light;
+}

@@ -1,0 +1,28 @@
+@import "src/assets/styles/main.module";
+
+.container {
+  display: grid;
+  row-gap: 20px;
+}
+
+.input {
+  border: 1px solid #021c36;
+  background: #004D98;
+  padding: 4px 1px;
+  font-size: 18px;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  justify-content: center;
+}
+
+.privacyText {
+  font-size: 18px;
+  font-family: $textFont;
+}

@@ -1,0 +1,14 @@
+@import "src/assets/styles/main.module";
+
+.avatar {
+  width: 30px;
+}
+
+
+.date {
+  background-color: $bg-area;
+  color: $white;
+  font-weight: 600;
+  padding: 4px;
+  font-family: $titleFont;
+}

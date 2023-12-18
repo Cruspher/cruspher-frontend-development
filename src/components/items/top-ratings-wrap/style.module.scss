@@ -1,0 +1,51 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  font-family: $textFont;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+.title {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+.body {
+  padding: 20px;
+  display: grid;
+  row-gap: 4px;
+}
+
+.playerWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playerLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  font-family: $textFont;
+}
+
+.playerRight {
+  color: $yellow;
+}
+
+.index {
+  color: $text-grey;
+  width: 25px;
+  text-align: center;
+}

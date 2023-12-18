@@ -1,0 +1,9 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  padding: 40px 20px;
+  row-gap: 8px;
+  background: $bg-grey;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 21px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+.wrap:nth-child(2n - 1) {
+  background: $bg-dark-opacity;
+  border-radius: 4px;
+}

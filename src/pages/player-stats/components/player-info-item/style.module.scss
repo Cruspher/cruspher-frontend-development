@@ -1,0 +1,29 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  background: $bg-dark-opacity;
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: $titleFont;
+  font-size: 21px;
+  background: $bg-dark-opacity;
+  padding: 10px;
+  width: 100%;
+  color: $grey-light;
+}
+
+.value {
+  font-family: $textFont;
+  font-size: 18px;
+  max-width: 250px;
+  color: $blue;
+  padding: 10px;
+}
+
+.white {
+  color: $white;
+}

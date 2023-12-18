@@ -1,0 +1,36 @@
+@import "src/assets/styles/main.module";
+
+
+.wrap  {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.wrap > div {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: $titleFont;
+  background: $gradient-grey;
+  color: $white;
+  border-radius: 50%;
+}
+
+.wrap > div:last-child {
+  background: $gradient-green;
+}
+
+.title {
+
+}
+
+.text {
+
+}

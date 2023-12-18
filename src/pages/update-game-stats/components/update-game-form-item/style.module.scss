@@ -1,0 +1,46 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  width: 100%;
+  position: relative;
+  font-family: $textFont;
+}
+
+.valueWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+}
+
+.bar {
+  background: $bg-grey;
+  display: flex;
+  height: 18px;
+}
+
+.title {
+  font-size: 14px;
+  color: $white;
+  margin: 0 auto;
+}
+
+.barHome {
+  height: 100%;
+  background: $gradient-green;
+}
+
+.barAway {
+  height: 100%;
+  background: $gradient-red;
+}
+
+
+

@@ -1,0 +1,10 @@
+.wrap {
+  display: grid;
+  row-gap: 30px;
+}
+
+.languageWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}

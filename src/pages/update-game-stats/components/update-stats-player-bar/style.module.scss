@@ -1,0 +1,39 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  row-gap: 10px;
+  font-family: $titleFont;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.title {
+  font-size: 15px;
+  color: $text-grey;
+  font-family: $titleFont;
+}
+
+.value {
+  font-weight: 700;
+}
+
+.body {
+  height: 10px;
+  width: 100%;
+  background: $bg-grey;
+}
+
+.bar {
+  height: 100%;
+  background: $gradient-green;
+}
+
+.max {
+  color: $text-grey;
+}
+

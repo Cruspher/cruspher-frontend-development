@@ -1,0 +1,32 @@
+@import "src/assets/styles/main.module";
+
+.game {
+  background-color: $bg-grey;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  column-gap: 12px;
+}
+
+.gameActive {
+  background-color: $green;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.name img {
+  height: 20px;
+}
+
+.league {
+  background-color: $bg-dark;
+  padding: 4px 8px;
+}
+

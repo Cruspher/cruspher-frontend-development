@@ -1,0 +1,25 @@
+@import "src/assets/styles/main.module";
+
+.button {
+  height: 38px;
+  background: $gradient-green;
+  min-width: 150px;
+  padding: 4px 20px;
+  border-radius: 6px;
+  color: $white;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: $titleFont;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: $gradient-green-hover;
+}

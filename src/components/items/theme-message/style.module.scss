@@ -1,0 +1,68 @@
+@import "src/assets/styles/main.module";
+
+.container {
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  row-gap: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > span {
+  color: $grey;
+  font-family: $titleFont;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.message {
+  max-width: 90%;
+  font-family: $textFont;
+}
+
+.footer svg {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.footer svg:hover {
+  opacity: 1;
+}
+
+.report {
+  color: $red;
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: translateY(3px);
+}
+
+.report:hover {
+  opacity: 1;
+}
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .message,
+  .buttonWrap {
+    max-width: 100%;
+  }
+}

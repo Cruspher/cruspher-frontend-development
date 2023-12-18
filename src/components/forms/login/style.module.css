@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  row-gap: 20px;
+  height: fit-content;
+}
+
+.input {
+  border: 1px solid #021c36;
+  background: #004D98;
+  padding: 4px 1px;
+  font-size: 18px;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  width: 200px;
+  padding: 4px 1px;
+  font-size: 18px;
+  background: olivedrab;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  opacity: 0.7;
+}

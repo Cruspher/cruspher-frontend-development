@@ -1,0 +1,14 @@
+@import "src/assets/styles/main.module";
+
+.input {
+  font-family: 'Roboto', sans-serif !important;
+  border: 2px solid $grey-light;
+  background: $gradient-grey;
+  color: $text-white;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+
+

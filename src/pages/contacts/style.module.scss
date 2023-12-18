@@ -1,0 +1,118 @@
+.container {
+  padding-top: 30px;
+  height: calc(100vh - 80px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  z-index: 2200;
+}
+
+.list
+{
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 990px) {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+.list li
+{
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+
+.list li a
+{
+  text-decoration: none;
+}
+.list li a svg
+{
+  font-size: 80px;
+  transition: 0.5s;
+}
+.list li::before
+{
+  content: "";
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  transition: 0.5s;
+  transform: translateY(-10px);
+  z-index: -1;
+}
+
+.list li:hover::before {
+  height: 100%;
+  transform: translateY(5px);
+}
+
+
+
+
+.youtubeIcon::before  {
+  border-bottom: 4px solid red;
+}
+
+.youtubeIcon:hover a svg {
+  color: red;
+}
+
+.twitterIcon::before  {
+  border-bottom: 4px solid #1DA1F2;
+}
+
+.twitterIcon:hover a svg {
+  color: #1DA1F2;
+}
+
+.whatsAppIcon::before  {
+  border-bottom: 4px solid #128C7E;
+}
+
+.whatsAppIcon:hover a svg {
+  color: #128C7E;
+}
+
+.facebookIcon::before  {
+  border-bottom: 4px solid #4267B2;
+}
+
+.facebookIcon:hover a svg {
+  color: #4267B2;
+}
+
+.instagramIcon::before  {
+  border-bottom: 4px solid #C13584;
+}
+
+.instagramIcon:hover a svg {
+  color: #C13584;
+}
+
+.telegramIcon::before  {
+  border-bottom: 4px solid #0088cc;
+}
+
+.telegramIcon:hover a svg {
+  color: #0088cc;
+}

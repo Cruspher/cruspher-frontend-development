@@ -1,0 +1,13 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  width: 100%;
+  padding: 20px;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+.title {
+  font-family: $titleFont;
+}

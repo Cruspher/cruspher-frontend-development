@@ -1,0 +1,30 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 700;
+  height: 50px;
+  background: $bg-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  color: $text-grey;
+  font-family: $titleFont;
+}
+
+.titleActive {
+  background: $gradient-grey;
+}
+
+.container {
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+  padding: 20px;
+}

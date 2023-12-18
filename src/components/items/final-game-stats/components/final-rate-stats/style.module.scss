@@ -1,0 +1,16 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  display: grid;
+  padding: 20px;
+  width: 100%;
+  box-shadow: $dark-box-shadow;
+  backdrop-filter: $backdrop-filter;
+  background: $bg-dark-opacity;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}

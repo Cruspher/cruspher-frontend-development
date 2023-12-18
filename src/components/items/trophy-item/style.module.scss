@@ -1,0 +1,49 @@
+@import "src/assets/styles/main.module";
+
+.wrap {
+  height: 300px;
+  background: $body-bg-dark;
+  box-shadow: $dark-box-shadow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 70%;
+  max-height: 160px;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-family: $titleFont;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background: $gradient-grey;
+}
+
+.info {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 8px;
+  font-family: $textFont;
+  font-size: 17px;
+  color: $text-grey;
+  padding: 10px;
+  top: 0;
+  left: 0;
+}

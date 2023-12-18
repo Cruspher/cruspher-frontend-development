@@ -1,0 +1,37 @@
+
+
+.area {
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 100px 50px 100px;
+}
+
+.dec {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+}
+
+.area > div {
+  position: relative;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 500px) {
+  .dec {
+    width: 140vw;
+    left: calc(-20vw - 20px) !important;
+  }
+
+  .area {
+    padding: 10px 10px 50px 10px;
+  }
+}
+
