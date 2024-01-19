@@ -4,9 +4,12 @@ import {Link} from "react-router-dom";
 import {AuthContext} from "../../context/AuthContext";
 import jwtDecode from "jwt-decode";
 import {BackgroundLogo} from "../cruspher-ui/background-logo";
+import {TradingViewWidgetCoinsHeatmap} from "../widgets/coins-heatmap";
+import {TradingViewWidgetChart} from "../widgets/chart";
+import {TradingViewWidgetStockHeatmap} from "../widgets/stock-heatmap";
 import {useIntl} from "react-intl";
 import {APPRoutes} from "../../const/APP-routes";
-import image from "./menu-bg.jpg";
+import image from "./menu-bg.webp";
 
 const MobileMenu = ({isMenuActive, toggleMenuHandler}) => {
 	const intl = useIntl();
@@ -96,6 +99,12 @@ const MobileMenu = ({isMenuActive, toggleMenuHandler}) => {
 				</li>
 			</ul>
 			{/* <div className={c.link}>FootBall News</div> */}
+
+			<div className={c.flex}>
+				<TradingViewWidgetCoinsHeatmap />
+				<TradingViewWidgetStockHeatmap />
+			</div>
+			<TradingViewWidgetChart />
 		</div>
 	);
 };

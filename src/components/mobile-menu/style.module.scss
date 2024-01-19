@@ -143,3 +143,8 @@ ul li a:hover:before {
   transition-delay: 0.2s;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}

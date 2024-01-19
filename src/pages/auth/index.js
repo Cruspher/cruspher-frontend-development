@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.css";
 import {useIntl} from "react-intl";
 import {useFormik} from "formik";
 import {toast} from "react-toastify";
-import image from "../../assets/image/background/field_bg.jpg";
+import image from "../../assets/image/background/field_bg.webp";
 import {Login} from "../../components/forms/login";
 import {Register} from "../../components/forms/register";
 import {loginSchema, registerSchema} from "../../schemas/auth/index";
