@@ -43,10 +43,10 @@ const MobileMenu = ({isMenuActive, toggleMenuHandler}) => {
 		//   title: intl.formatMessage({id: 'statistics'}),
 		//   link: APPRoutes.statistics
 		// },
-		{
-			title: intl.formatMessage({id: "contacts"}),
-			link: APPRoutes.contacts,
-		},
+		// {
+		// 	title: intl.formatMessage({id: "contacts"}),
+		// 	link: APPRoutes.contacts,
+		// },
 	];
 
 	return (

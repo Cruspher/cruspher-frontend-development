@@ -14,7 +14,7 @@ const FormikData = ({value, form, name}) => {
         locale={'en-US'}
         className={c.picker}
         hideLabel={true}
-        minDate={new Date("01-01-1850")}
+        minDate={new Date("01-01-1950")}
         maxDate={new Date("03-29-2050")}
       />
     </>

@@ -26,7 +26,7 @@ import {AdminNewsViewPage} from "./pages/admin/admin-news-view";
 import {ContactsPage} from "./pages/contacts";
 // import {GamePage} from "./pages/game";
 // import {UpdateGameStatsPage} from "./pages/update-game-stats";
-// import {TrophiesPage} from "./pages/trophies";
+import {TrophiesPage} from "./pages/trophies";
 // import {ClubStatsPage} from "./pages/club-stats";
 // import {ClubTokenPage} from "./pages/club-token";
 // import {PlayerStats} from "./pages/player-stats";
@@ -61,11 +61,11 @@ const useRoutes = (role) => {
 				<Route path={APPRoutes.addNews} element={<AdminNewsViewPage />} />
 				<Route path={APPRoutes.forum} element={<ForumPage />} />
 				<Route path="/forum/:id" element={<ForumTheme />} />
-				<Route path="/news/:id" element={<NewsView />} />
-				<Route path={APPRoutes.news} element={<NewsPage />} />
+				{/* <Route path="/news/:id" element={<NewsView />} />
+				<Route path={APPRoutes.news} element={<NewsPage />} /> */}
 				{/* <Route path="/club-token" element={<ClubTokenPage />} /> */}
-				{/* <Route path={APPRoutes.trophies} element={<TrophiesPage />} />
-        <Route path={`${APPRoutes.playerStats}/:id`} element={<PlayerStats />} />
+				<Route path={APPRoutes.news} element={<TrophiesPage />} />
+				{/* <Route path={`${APPRoutes.playerStats}/:id`} element={<PlayerStats />} />
 
         <Route path={APPRoutes.statistics} element={<ClubStatsPage />} /> */}
 				<Route path={APPRoutes.adminTrophy} element={<AdminTrophyPage />} />
